@@ -1,4 +1,4 @@
-## Code for Reading the Data[Start]
+### Code for Reading the Data[Start]
 data<-read.table("household_power_consumption.txt",sep=";",head=TRUE)
 x<-data[,1]
 x<-strptime(x,"%d/%m/%Y")
